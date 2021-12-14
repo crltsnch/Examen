@@ -2,6 +2,8 @@
 Mi dirección de  GitHub para estre repositorio es el siguiente: 
 https://github.com/crltsnch/Examen.git
 Hemos resuelto el juego de ajedrez de la UAX y el juego The Minion Game. Su código es:
+
+
 ' '
 def miniongame(string):
   jugador1stuart = 0
@@ -26,6 +28,8 @@ if __name__ == '__main__':
   s = input()
   miniongame(s)
   ' '
+  
+  
   
   ' '
   import math
