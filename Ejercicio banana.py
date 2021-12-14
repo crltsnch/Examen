@@ -13,3 +13,11 @@ def miniongame(i):
       jugador1stuart += palabra - i
     elif palabra in "AEIOU":
       jugador2kevin += palabra - i
+
+  if jugador1stuart > jugador2kevin:
+    print("¡Stuart ha ganado!")
+  elif jugador1stuart < jugador2kevin:
+    print("¡Kevin ha ganado!")
+  elif jugador1stuart == jugador2kevin:
+    print("Empate")
+
